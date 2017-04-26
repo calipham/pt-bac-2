@@ -23,9 +23,9 @@ public class Exer1
             }
             else if ( delta > 0 ){
                 System.out.println( " Phuong trinh co 2 nghiem phan biet ");
-                x1 = (-b + Math.sqrt(delta))/a;
+                x1 = (-b + Math.sqrt(delta))2/a;
                 System.out.println(" x1 = " + x1 );
-                x2 = (-b + Math.sqrt(delta))/a;
+                x2 = (-b + Math.sqrt(delta))2/a;
                 System.out.println(" x2 = " + x2);
             }
         }
