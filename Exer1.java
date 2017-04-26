@@ -19,14 +19,14 @@ public class Exer1
             else if ( delta == 0 ){
                 System.out.println( " Phuong trinh co nghiem kep " );
                 x1 = x2 = -b / (2*a);
-                System.out.println( " x1 = x2 = -b / (2 *a) = " + x1 );
+                System.out.println( " x1 = x2 = -b / (2 *a) = " + String.format("%.2f",x1) );
             }
             else if ( delta > 0 ){
                 System.out.println( " Phuong trinh co 2 nghiem phan biet ");
-                x1 = (-b + Math.sqrt(delta))2/a;
-                System.out.println(" x1 = " + x1 );
-                x2 = (-b + Math.sqrt(delta))2/a;
-                System.out.println(" x2 = " + x2);
+                x1 = (-b + Math.sqrt(delta))/(2*a);
+                System.out.println(" x1 = " + String.format("%.2f",x1));
+                x2 = (-b - Math.sqrt(delta))/(2*a);
+                System.out.println(" x2 = " + String.format("%.2f",x2));
             }
         }
     }
